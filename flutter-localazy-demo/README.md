@@ -41,6 +41,10 @@ assets/
   wireless-keyboard-2.jpg
 test/
   widget_test.dart
+  localization_test.dart
+  goldens/
+    cart_en.png
+    cart_fr.png
 ```
 
 Translations live in `assets/translations/`, with generated keys in `locale_keys.g.dart`. The shop screen connects them to the greeting, cart quantity, and recipient selection.
@@ -54,4 +58,6 @@ flutter analyze
 flutter test
 ```
 
-The tests check that the product screen loads after entering a name and that the English cart message updates with the quantity. Check the other languages, text overflow, and RTL layout on a device.
+The tests cover the product screen, cart controls, and the empty-cart message in English and French. The localization test also compares two small golden images, using Flutter's default test font rather than the app's fonts. Check real typography, the other languages, and RTL layout on a device.
+
+To run just the test from the guide, use `flutter test test/localization_test.dart`. After an intentional change, generate new baselines with `flutter test --update-goldens test/localization_test.dart`, inspect the images in `test/goldens/`, and commit them with the test. Keep the Flutter version and operating system consistent when comparing goldens.
