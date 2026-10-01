@@ -1,0 +1,46 @@
+{
+    "app": {
+        "name": "Maboutik",
+        "loading": "Loading @:app.name",
+        "welcome": "Welcome back, {userName}",
+        "welcomeFallback": "Welcome back"
+    },
+    "language": {
+        "label": "Language",
+        "english": "English",
+        "french": "French",
+        "german": "German",
+        "arabic": "Arabic"
+    },
+    "prompt": {
+        "title": "Welcome to @:app.name",
+        "description": "Enter your name to personalize the shop.",
+        "nameLabel": "Your name",
+        "continueAction": "Continue"
+    },
+    "gender": {
+        "label": "Who is this for?",
+        "male": "Him",
+        "female": "Her",
+        "other": "Not specified"
+    },
+    "product": {
+        "name": "Wireless Keyboard",
+        "description": "Compact mechanical keyboard for daily work.",
+        "personalPick": "Personal pick",
+        "recommendation": {
+            "male": "He may like this compact keyboard.",
+            "female": "She may like this compact keyboard.",
+            "other": "This compact keyboard could be a good choice."
+        }
+    },
+    "cart": {
+        "decrease": "Remove one item",
+        "increase": "Add one item",
+        "items": {
+            "zero": "You have no items in your cart",
+            "one": "You have 1 item in your cart",
+            "other": "You have {count} items in your cart"
+        }
+    }
+}

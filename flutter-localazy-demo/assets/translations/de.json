@@ -1,0 +1,45 @@
+{
+  "app": {
+    "loading": "@:app.name wird geladen",
+    "name": "Maboutik",
+    "welcome": "Willkommen zurück, {userName}",
+    "welcomeFallback": "Willkommen zurück"
+  },
+  "cart": {
+    "decrease": "Einen Artikel entfernen",
+    "increase": "Einen Artikel hinzufügen",
+    "items": {
+      "one": "Du hast 1 Artikel im Warenkorb",
+      "other": "Du hast {count} Artikel im Warenkorb"
+    }
+  },
+  "gender": {
+    "female": "Für sie",
+    "label": "Für wen ist das?",
+    "male": "Für ihn",
+    "other": "Keine Angabe"
+  },
+  "language": {
+    "arabic": "Arabisch",
+    "english": "Englisch",
+    "french": "Französisch",
+    "german": "Deutsch",
+    "label": "Sprache"
+  },
+  "product": {
+    "description": "Kompakte mechanische Tastatur fürs tägliche Arbeiten.",
+    "name": "Kabellose Tastatur",
+    "personalPick": "Unsere Empfehlung",
+    "recommendation": {
+      "female": "Vielleicht gefällt ihr diese kompakte Tastatur.",
+      "male": "Vielleicht gefällt ihm diese kompakte Tastatur.",
+      "other": "Diese kompakte Tastatur könnte eine gute Wahl sein."
+    }
+  },
+  "prompt": {
+    "continueAction": "Weiter",
+    "description": "Gib deinen Namen ein, um den Shop zu personalisieren.",
+    "nameLabel": "Dein Name",
+    "title": "Willkommen bei @:app.name"
+  }
+}

@@ -1,0 +1,11 @@
+{
+    "upload": {
+        "type": "json",
+        "files": "assets/translations/en.json",
+        "features": ["plural_object"]
+    },
+    "download": {
+        "includeSourceLang": false,
+        "files": "assets/translations/${lang}.json"
+    }
+}

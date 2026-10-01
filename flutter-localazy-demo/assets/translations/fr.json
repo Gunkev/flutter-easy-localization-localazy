@@ -1,0 +1,45 @@
+{
+  "app": {
+    "loading": "Chargement de @:app.name",
+    "name": "Maboutik",
+    "welcome": "Bon retour, {userName}",
+    "welcomeFallback": "Bon retour !"
+  },
+  "cart": {
+    "decrease": "Retirer un article",
+    "increase": "Ajouter un article",
+    "items": {
+      "one": "Tu as {count} article dans ton panier",
+      "other": "Tu as {count} articles dans ton panier"
+    }
+  },
+  "gender": {
+    "female": "Elle",
+    "label": "C’est pour qui ?",
+    "male": "Lui",
+    "other": "Non précisé"
+  },
+  "language": {
+    "arabic": "Arabe",
+    "english": "Anglais",
+    "french": "Français",
+    "german": "Allemand",
+    "label": "Langue"
+  },
+  "product": {
+    "description": "Clavier mécanique compact pour le boulot au quotidien.",
+    "name": "Clavier sans fil",
+    "personalPick": "Notre suggestion",
+    "recommendation": {
+      "female": "Elle pourrait aimer ce clavier compact.",
+      "male": "Il pourrait aimer ce clavier compact.",
+      "other": "Ce clavier compact pourrait être un bon choix."
+    }
+  },
+  "prompt": {
+    "continueAction": "Continuer",
+    "description": "Entre ton nom pour personnaliser la boutique.",
+    "nameLabel": "Ton nom",
+    "title": "Bienvenue sur @:app.name"
+  }
+}
