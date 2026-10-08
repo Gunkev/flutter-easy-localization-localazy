@@ -17,6 +17,7 @@ Future<void> main() async {
       ],
       path: 'assets/translations',
       fallbackLocale: const Locale('en'),
+      useFallbackTranslations: true,
       useOnlyLangCode: true,
       ignorePluralRules: false,
       child: const MaboutikApp(),

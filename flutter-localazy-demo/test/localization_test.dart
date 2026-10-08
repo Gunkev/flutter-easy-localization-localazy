@@ -40,6 +40,7 @@ void main() {
           supportedLocales: const [Locale('en'), Locale('fr')],
           startLocale: Locale(entry.key),
           fallbackLocale: const Locale('en'),
+          useFallbackTranslations: true,
           path: 'assets/translations',
           useOnlyLangCode: true,
           ignorePluralRules: false,

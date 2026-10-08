@@ -33,6 +33,7 @@ void main() {
       supportedLocales: const [Locale('en')],
       startLocale: const Locale('en'),
       fallbackLocale: const Locale('en'),
+      useFallbackTranslations: true,
       path: 'assets/translations',
       useOnlyLangCode: true,
       ignorePluralRules: false,

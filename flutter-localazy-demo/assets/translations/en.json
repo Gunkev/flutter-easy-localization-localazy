@@ -38,7 +38,6 @@
         "decrease": "Remove one item",
         "increase": "Add one item",
         "items": {
-            "zero": "You have no items in your cart",
             "one": "You have 1 item in your cart",
             "other": "You have {count} items in your cart"
         }
